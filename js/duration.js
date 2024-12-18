@@ -5,7 +5,7 @@
   }
 
   // 计时起始时间，仿照格式自行修改
-  var start = Date.parse("2024-12-18T15:55:12");
+  var start = Date.parse("2024-12-18T15:55:12+08:00");
 
   function update() {
     var now = Date.now() + 250;
